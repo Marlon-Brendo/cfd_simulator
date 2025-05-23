@@ -1,8 +1,8 @@
 // Could Hashlife be a useful way of implementing a cfd simulator?
 // https://en.wikipedia.org/wiki/Hashlife
 
-import { Universe, Cell }  from "cfd_simulator";
-import { memory } from "cfd_simulator/cfd_simulator_bg.wasm";
+import { Universe, Cell }  from "../pkg/cfd_simulator";
+import { memory } from "../pkg/cfd_simulator_bg.wasm";
 
 const CELL_SIZE = 5; // px
 const GRID_colour = "#CCCCCC";

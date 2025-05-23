@@ -1,7 +1,7 @@
 {
-    "name": "create-wasm-app",
+    "name": "cfd_simulator_web",
     "version": "0.0.0",
-    "description": "create an app to consume rust-generated wasm packages",
+    "description": "",
     "main": "index.js",
     "scripts": {
         "start": "webpack-dev-server",
@@ -18,7 +18,7 @@
         "rust",
         "webpack"
     ],
-    "author": "Ashley Williams <ashley666ashley@gmail.com>",
+    "author": "***Brendan McAuley <brendan@mcauley.dev>",
     "license": "(MIT OR Apache-2.0)",
     "bugs": {
         "url": "https://github.com/rustwasm/create-wasm-app/issues"
@@ -26,11 +26,12 @@
     "homepage": "https://github.com/rustwasm/create-wasm-app#readme",
     "dependencies": {
         "cfd_simulator": "file:../pkg/cfd_simulator.wasm.d.ts",
-        "copy-webpack-plugin": "^5.0.0"
+        "copy-webpack-plugin": "^5.0.0",
+        "yarn": "^1.22.22"
     },
     "devDependencies": {
-        "webpack": "^5.96.1",
+        "webpack": "^5.99.9",
         "webpack-cli": "^5.1.4",
-        "webpack-dev-server": "^5.1.0"
+        "webpack-dev-server": "^5.2.1"
     }
 }
