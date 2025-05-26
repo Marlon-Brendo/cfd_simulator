@@ -16,12 +16,13 @@
         "webassembly",
         "wasm",
         "rust",
-        "webpack"
+        "webpack",
+        "javascript"
     ],
     "author": "***Brendan McAuley <brendan@mcauley.dev>",
     "license": "(MIT OR Apache-2.0)",
     "bugs": {
-        "url": "https://github.com/rustwasm/create-wasm-app/issues"
+        "url": "https://github.com/Marlon-Brendo/cfd_simulator/issues"
     },
     "homepage": "https://github.com/rustwasm/create-wasm-app#readme",
     "dependencies": {

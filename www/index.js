@@ -10,7 +10,7 @@ const DEAD_colour = "#FFFFFF";
 const ALIVE_colour = "rgba(150, 0, 0, 1)";
 
 
-const pre = document.getElementById("game-of-life-canvas");
+const pre = document.getElementById("cfd-canvas");
 
 
 // Construct the universe, and get its width and height.
@@ -21,7 +21,7 @@ const height = universe.height();
 
 // Give the canvas room for all of our cells and a 1px border
 // around each of them.
-const canvas = document.getElementById("game-of-life-canvas");
+const canvas = document.getElementById("cfd-canvas");
 canvas.height = (CELL_SIZE + 1) * height + 1;
 canvas.width = (CELL_SIZE + 1) * width + 1;
 
